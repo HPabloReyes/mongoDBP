@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const UserScheme = new mongoose.Schema(
+const TracksScheme = new mongoose.Schema(
   {
     name: {
       type: String,

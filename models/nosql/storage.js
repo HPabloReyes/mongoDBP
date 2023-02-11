@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const UserScheme = new mongoose.Schema(
+const StorageScheme = new mongoose.Schema(
   {
     url: {
       type: String,
